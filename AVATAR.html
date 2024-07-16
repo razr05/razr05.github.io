@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avatar - Neo Sport</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            width: 100%;
+            background-color: #000000;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            height: 50px;
+            margin-right: 10px;
+        }
+
+        .icons {
+            display: flex;
+            align-items: center;
+            margin-left: auto;
+            color: white;
+        }
+
+        .icon {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 50%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-left: 10px;
+            transition: transform 0.2s;
+        }
+
+        .icon:hover {
+            transform: translateY(-5px);
+        }
+
+        .icon i {
+            font-size: 1.5em;
+            color: #000;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            flex: 1;
+            width: 100%;
+            text-align: center;
+            padding: 20px;
+            background-color: #ffffff;
+        }
+
+        footer {
+            background-color: #000000;
+            color: white;
+            text-align: left;
+            padding: 10px 20px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .categoria-footer a {
+    color: #ffffff; /* Cambia el color del texto a blanco */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Transición suave del color */
+    font-weight: bold; /* Hace que el texto sea negrita */
+}
+
+.categoria-footer a:hover {
+    color: #00bcd4; /* Cambia el color del texto al pasar el mouse */
+}
+
+        .copyright {
+            text-align: center;
+            margin-left: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="http://127.0.0.1:5500/Index.html">
+                <img src="imagenes/me.jpg" alt="Logo de Neo Sport">
+            </a>
+        </div>
+        <div class="icons">
+            <a href="carrito.html" class="icon">
+                <i class="fas fa-shopping-cart"></i>
+            </a>
+            <a href="avatar.html" class="icon">
+                <i class="fas fa-user"></i>
+            </a>
+        </div>
+    </header>
+    <main>
+        <h1>En Mantenimiento</h1>
+        <p>...Proximamente...</p>
+    </main>
+
+    <footer>
+        <div class="categorias-footer">
+            <div class="categoria-footer">
+                <a href="http://127.0.0.1:5500/SOBRE%20NOSOTROS.html">Sobre Nosotros</a>
+            </div>
+            <div class="categoria-footer">
+                <a href="contacto.html">Contacto</a>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2024 NEO SPORT. TODOS LOS DERECHOS RESERVADOS.</p>
+    </footer>
+</body>
+</html>
